@@ -6,7 +6,7 @@ from rest_framework.views import APIView
 from .utils import get_tokens_for_user
 from .serializers import RegistrationSerializer
 from .models import MyUser
-from rest_framework_simplejwt.authentication import JWTAuthentication
+
 # Create your views here.
 
 
@@ -56,7 +56,6 @@ class SignOutView(APIView):
 
 
 class GetMeView(APIView):
-    # authentication_classes = [JWTAuthentication]
 
     def post(self, request):
         if 'email' not in request.data:
