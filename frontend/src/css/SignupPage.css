@@ -1,0 +1,36 @@
+
+.signup-main{
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: 50%;
+    box-shadow: 3px 2px 3px 2px rgb(45, 43, 43);
+    padding-top: 30px;
+    border-radius: 10px;
+    background-color: white;    
+}
+
+.Form-group{
+    display: block;
+    padding: 15px;
+    width: 90%;
+}
+
+
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.button{
+    border-radius: 5px;
+}
+
+
+span + span {
+    margin-top: 20px;
+    margin-left: 10px;
+}
